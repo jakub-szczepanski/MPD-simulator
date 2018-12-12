@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual MPD</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" media="screen" />
+</head>
+<body>
+    <div class="pads">
+        <div data-pad="81" class="pad">
+            <kbd>Q</kbd>
+            <span class="sound">clap</span>
+        </div>
+        <div data-pad="87" class="pad">
+            <kbd>W</kbd>
+            <span class="sound">hihat</span>
+        </div>
+        <div data-pad="69" class="pad">
+            <kbd>E</kbd>
+            <span class="sound">kick</span>
+        </div>
+        <div data-pad="82" class="pad">
+            <kbd>R</kbd>
+            <span class="sound">openhat</span>
+        </div>
+        <div data-pad="65" class="pad">
+            <kbd>A</kbd>
+            <span class="sound">boom</span>
+        </div>
+        <div data-pad="83" class="pad">
+            <kbd>S</kbd>
+            <span class="sound">snare</span>
+        </div>
+        <div data-pad="68" class="pad">
+            <kbd>D</kbd>
+            <span class="sound">tom</span>
+        </div>
+        <div data-pad="70" class="pad">
+            <kbd>F</kbd>
+            <span class="sound">tink</span>
+        </div>
+    </div>
+
+    <audio data-pad="81" src="./sounds/clap.wav"></audio>
+    <audio data-pad="87" src="./sounds/hihat.wav"></audio>
+    <audio data-pad="69" src="./sounds/kick.wav"></audio>
+    <audio data-pad="82" src="./sounds/openhat.wav"></audio>
+    <audio data-pad="65" src="./sounds/boom.wav"></audio>
+    <audio data-pad="83" src="./sounds/snare.wav"></audio>
+    <audio data-pad="68" src="./sounds/tom.wav"></audio>
+    <audio data-pad="70" src="./sounds/tink.wav"></audio>
+
+    <script src="out.js"></script>
+</body>
+</html>
