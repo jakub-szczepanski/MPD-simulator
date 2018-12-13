@@ -11,15 +11,23 @@ body, html {
   font-family: sans-serif;
 }
 
+header {
+  height:20vh;
+}
+
+footer {
+  height:20vh;
+}
+
 .wrapper {
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   height: 100vh;
 }
 
 .pads1 {
   display: flex;
   flex: 1;
-  min-height: 25vh;
+  min-height: 17vh;
   align-items: center;
   justify-content: center;
   }
@@ -40,7 +48,7 @@ body, html {
 
 .empty {
   width: 10rem;
-  border: 1px solid white;
+  /*border: 1px solid white;*/
   margin: 1rem;
   padding: 1rem .5rem;
 }
@@ -50,10 +58,17 @@ body, html {
   border: 1px solid white;
   margin: 1rem;
   padding: 1rem .5rem;
+  text-align: center;
+  color: #ffc600;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
 }
 
 .start-button {
-
+  text-align: center;
+  color: #ffc600;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .5rem black;
 }
 
 .playing {
