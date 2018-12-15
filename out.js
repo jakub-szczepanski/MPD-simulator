@@ -18,3 +18,15 @@ const pads = Array.from(document.querySelectorAll('.pad'));
 pads.forEach(pad => pad.addEventListener('transitionend', removeTransition));
 
 window.addEventListener('keydown', playSound);
+
+function startMPD(e) {
+    const start = document.querySelector('.start-button');
+    
+    start.addEventListener('click', function() {
+        start.classList.toggle('pressed');
+        pads.forEach(pad => pad.classList.toggle('activated'));
+    })
+
+}
+
+startMPD();
