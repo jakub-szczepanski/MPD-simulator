@@ -24,7 +24,7 @@ footer {
   height: 100vh;
 }
 
-.pads1 {
+.pads {
   display: flex;
   flex: 1;
   min-height: 17vh;
@@ -44,6 +44,11 @@ footer {
   color: white;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
+}
+
+.activated {
+  border: .4rem solid  #ff3c3c;
+  box-shadow: 0 0 1rem #ff3c3c;
 }
 
 .empty {
@@ -71,10 +76,14 @@ footer {
   text-shadow: 0 0 .5rem black;
 }
 
+.pressed {
+  background: #ff3c3c;
+}
+
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #ff3c3c;
+  box-shadow: 0 0 1rem #ff3c3c;
 }
   
 kbd {
