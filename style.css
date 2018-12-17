@@ -71,7 +71,7 @@ footer {
 .start-button {
   color: #ffc600;
   text-shadow: 0 0 .5rem black;
-  background-color: rgba(0,0,0,0.4);
+  background-color: black;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
