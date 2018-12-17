@@ -20,7 +20,6 @@ footer {
 }
 
 .wrapper {
-  /*border: 1px solid white;*/
   height: 100vh;
 }
 
@@ -53,14 +52,14 @@ footer {
 
 .empty {
   width: 10rem;
-  /*border: 1px solid white;*/
   margin: 1rem;
   padding: 1rem .5rem;
 }
 
 .start {
   width: 10rem;
-  border: 1px solid white;
+  border: .4rem solid black;
+  border-radius: .5rem;
   margin: 1rem;
   padding: 1rem .5rem;
   text-align: center;
@@ -70,14 +69,20 @@ footer {
 }
 
 .start-button {
-  text-align: center;
   color: #ffc600;
-  background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .5rem black;
+  background-color: rgba(0,0,0,0.4);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  border: 2rem solid black;
+  border-radius: .5rem;
+  outline: none;
 }
 
 .pressed {
   background: #ff3c3c;
+  border: 2rem solid #ff3c3c;
 }
 
 .playing {
